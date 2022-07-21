@@ -1,0 +1,14 @@
+# GitHub directory
+.github
+
+# husky config - https://github.com/typicode/husky
+.husky
+
+# lint-staged config - https://github.com/okonet/lint-staged
+.lintstagedrc.json
+
+# semantic-release config - https://github.com/semantic-release/semantic-release
+.releaserc.json
+
+# Code of Conduct
+CODE_OF_CONDUCT.md

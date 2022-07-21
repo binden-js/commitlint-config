@@ -1,0 +1,51 @@
+{
+  "name": "@binden/commitlint-config",
+  "version": "1.0.0",
+  "description": "Shareable commitlint config (based on commitlint/config-conventional)",
+  "main": ".commitlintrc.json",
+  "type": "commonjs",
+  "types": "index.d.ts",
+  "engines": {
+    "node": ">=18.6.0",
+    "npm": ">=8.13.2"
+  },
+  "scripts": {
+    "commitlint": "commitlint --verbose --from=$( git rev-list --max-parents=0 $( git rev-parse --abbrev-ref HEAD ) )",
+    "install:clean": "rm -fr node_modules && rm -f package-lock.json && npm install",
+    "prepare": "husky install",
+    "prettier": "prettier -c .",
+    "prettier:write": "npm run prettier -- --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binden-js/commitlint-config.git"
+  },
+  "keywords": [
+    "commitlint",
+    "commitlintconfig",
+    "binden"
+  ],
+  "author": "Sergey Bakulin <sergey.bakulin.github@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binden-js/commitlint-config/issues"
+  },
+  "homepage": "https://github.com/binden-js/commitlint-config#readme",
+  "peerDependencies": {
+    "@commitlint/config-conventional": "^17.0.3",
+    "commitlint": "^17.0.3"
+  },
+  "devDependencies": {
+    "@binden/semantic-release-config": "^1.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "funding": {
+    "type": "Coinbase Commerce",
+    "url": "https://commerce.coinbase.com/checkout/eddfb0f7-20e7-4e0d-8e04-232bbdf0b397"
+  }
+}
