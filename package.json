@@ -11,7 +11,8 @@
   },
   "scripts": {
     "commitlint": "commitlint --verbose --from=$( git rev-list --max-parents=0 $( git rev-parse --abbrev-ref HEAD ) )",
-    "install:clean": "rm -fr node_modules && rm -f package-lock.json && npm install",
+    "install:clean": "npm install",
+    "preinstall:clean": "rm -rf node_modules package-lock.json",
     "prepare": "husky install",
     "prettier": "prettier -c .",
     "prettier:write": "npm run prettier -- --write"
@@ -32,11 +33,11 @@
   },
   "homepage": "https://github.com/binden-js/commitlint-config#readme",
   "peerDependencies": {
-    "@commitlint/config-conventional": "^17.0.3",
-    "commitlint": "^17.0.3"
+    "@commitlint/config-conventional": "^17.1.0",
+    "commitlint": "^17.1.2"
   },
   "devDependencies": {
-    "@binden/semantic-release-config": "^1.0.0",
+    "@binden/semantic-release-config": "^1.1.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1"
