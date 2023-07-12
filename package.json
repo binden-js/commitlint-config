@@ -33,8 +33,8 @@
   },
   "homepage": "https://github.com/binden-js/commitlint-config#readme",
   "peerDependencies": {
-    "@commitlint/config-conventional": "^17.1.0",
-    "commitlint": "^17.1.2"
+    "@commitlint/config-conventional": "^17.6.6",
+    "commitlint": "^17.6.6"
   },
   "devDependencies": {
     "@binden/semantic-release-config": "^1.1.1",
