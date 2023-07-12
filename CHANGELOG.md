@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.2](https://github.com/binden-js/commitlint-config/compare/v1.0.1...v1.0.2) (2023-07-12)
+
+### Dependencies
+
+- bump commitlint from 17.1.2 to 17.6.6 ([c996642](https://github.com/binden-js/commitlint-config/commit/c996642b623f4439c92930619ea7d23a0510cca5))
+
 ## [1.0.1](https://github.com/binden-js/commitlint-config/compare/v1.0.0...v1.0.1) (2022-09-04)
 
 ### Dependencies
