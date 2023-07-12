@@ -22,8 +22,8 @@ declare const _default: {
         "chore",
         "refactor",
         "test",
-        "ci"
-      ]
+        "ci",
+      ],
     ];
   };
 };
