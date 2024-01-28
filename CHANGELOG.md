@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.0.0](https://github.com/binden-js/commitlint-config/compare/v1.0.2...v2.0.0) (2024-01-28)
+
+### ⚠ BREAKING CHANGES
+
+- bump `commitlint` from `v17.6.6` to `v18.6.0`
+- drop Node.js `<20` support
+
+### peerDependencies
+
+- bump `commitlint` from `v17.6.6` to `v18.6.0` ([b590b16](https://github.com/binden-js/commitlint-config/commit/b590b16cd20cb0ddfe16d61f964ef639419f21cc))
+
+### Performance Improvements
+
+- drop Node.js `<20` support ([4098506](https://github.com/binden-js/commitlint-config/commit/409850617ecaf99f7b2f2c5cadb642dddf9b7016))
+
 ## [1.0.2](https://github.com/binden-js/commitlint-config/compare/v1.0.1...v1.0.2) (2023-07-12)
 
 ### Dependencies
