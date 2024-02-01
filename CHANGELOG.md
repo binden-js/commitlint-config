@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.0](https://github.com/binden-js/commitlint-config/compare/v2.0.0...v2.1.0) (2024-02-01)
+
+### Features
+
+- set the warning on the `"footer-max-line-length` rule ([15582e0](https://github.com/binden-js/commitlint-config/commit/15582e0273c9accd19a6e6b788844a7579502ed8))
+
 ## [2.0.0](https://github.com/binden-js/commitlint-config/compare/v1.0.2...v2.0.0) (2024-01-28)
 
 ### ⚠ BREAKING CHANGES
