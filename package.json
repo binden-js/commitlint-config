@@ -1,6 +1,6 @@
 {
   "name": "@binden/commitlint-config",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Shareable commitlint config (based on commitlint/config-conventional)",
   "main": "commitlint.config.mjs",
   "type": "module",

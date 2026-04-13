@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.0.0](https://github.com/binden-js/commitlint-config/compare/v2.1.0...v3.0.0) (2026-04-13)
+
+### ⚠ BREAKING CHANGES
+
+- bump `commitlint` from `v18` to `v20`
+
+### Dependencies
+
+- bump `commitlint` from `v18` to `v20` ([4539fd0](https://github.com/binden-js/commitlint-config/commit/4539fd09f90c742de1c8f9e6ed27081ef2242944))
+
 ## [2.1.0](https://github.com/binden-js/commitlint-config/compare/v2.0.0...v2.1.0) (2024-02-01)
 
 ### Features
