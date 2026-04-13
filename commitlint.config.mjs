@@ -1,6 +1,6 @@
-{
-  "extends": "@commitlint/config-conventional",
-  "rules": {
+export default {
+  extends: "@commitlint/config-conventional",
+  rules: {
     "body-max-line-length": [1, "always", 100],
     "footer-max-line-length": [1, "always", 100],
     "type-case": [2, "always", "camel-case"],
@@ -23,8 +23,8 @@
         "chore",
         "refactor",
         "test",
-        "ci"
-      ]
-    ]
-  }
-}
+        "ci",
+      ],
+    ],
+  },
+};

@@ -29,4 +29,4 @@ declare const _default: {
   };
 };
 
-export = _default;
+export default _default;
